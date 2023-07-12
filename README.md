@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Finished project
 
-![alt](Color.png)
+![alt](Colors.png)
 
 ## Available Scripts
 
