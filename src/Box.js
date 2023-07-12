@@ -3,12 +3,9 @@ import './Box.css'
 import {choice} from './helpers'
 
 class Box extends Component {
-    static defaultProps = {
-        allColors: ['purple', 'magenta', 'violet', 'pink']
-    }
     constructor(props) {
         super(props)
-        this.state = {color: choice(this.props.allColors)}
+        this.state = {color: choice(this.props.colors)}
         this.handleClick = this.handleClick.bind(this)
     }
 
